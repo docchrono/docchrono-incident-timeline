@@ -1,0 +1,4 @@
+Containment Record
+
+On 2026-04-07, Maya Chen rejected account SEC-104 access at Northstar Systems Corp.
+This synthetic record represents the containment step.

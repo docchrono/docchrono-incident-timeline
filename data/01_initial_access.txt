@@ -1,0 +1,4 @@
+Security Access Record
+
+On 2026-04-02, Maya Chen authorized account SEC-104 for Northstar Systems Corp.
+The record belongs to the fictional Northstar training environment.

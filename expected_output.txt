@@ -1,0 +1,28 @@
+DocChrono synthetic security incident
+docchrono: 0.1.0
+build complete: true
+documents: 5
+events: 6
+relationships: 18
+dated timeline: 6
+undated events: 0
+
+Chronology (extracted claims are provisional):
+1. 2026-04-02 | DECISION | Authorized: account SEC-104 for Northstar Systems Corp | score=0.920
+   source=01_initial_access.txt sha256=d004ed29b42379773bad1864b6642a214a95d5b7c8a51d388a8a8fe2ccf292e0 raw=39:102 field=-
+   quote="Maya Chen authorized account SEC-104 for Northstar Systems Corp"
+2. 2026-04-05 | COMMUNICATION | Notified: Maya Chen about unusual activity on account SEC-104 | score=0.920
+   source=02_endpoint_alert.md sha256=db38a78b37655b5afca8b3ddedb1a0a50b194ca0996d6694e58a49f8976a5df9 raw=40:111 field=-
+   quote="Priya Shah notified Maya Chen about unusual activity on account SEC-104"
+3. 2026-04-06 | ACTION | Submitted: Case IR-2026-041 to Northstar Systems Corp | score=0.920
+   source=03_triage_message.eml sha256=757d2be404e249a48af74c1742270d89073e309897a452c7a0d1d60f92c4779f raw=213:276 field=-
+   quote="Priya Shah submitted Case IR-2026-041 to Northstar Systems Corp"
+4. 2026-04-06T09:15:00+00:00 | COMMUNICATION | Email Sent | score=0.995
+   source=03_triage_message.eml sha256=757d2be404e249a48af74c1742270d89073e309897a452c7a0d1d60f92c4779f raw=18:80 field=-
+   quote="priya.shah@example.test>\nTo: Maya Chen <maya.chen@example.test"
+5. 2026-04-07 | DECISION | Rejected: account SEC-104 access at Northstar Systems Corp | score=0.920
+   source=04_containment.txt sha256=f567eaf1e5019af49fd9915425651b9cd79827d2136a5f1bf7cd44201d94c31f raw=35:102 field=-
+   quote="Maya Chen rejected account SEC-104 access at Northstar Systems Corp"
+6. 2026-04-09 | DECISION | Authorized: account SEC-104 after credential rotation at Northstar Systems Corp | score=0.920
+   source=05_recovery.md sha256=be555464bcc9998100daaeb893030bd2c08124bfd31fc0e8a9342beaa1f557f4 raw=41:132 field=-
+   quote="Elena Torres authorized account SEC-104 after credential rotation at Northstar Systems Corp"
